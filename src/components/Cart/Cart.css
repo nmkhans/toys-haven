@@ -1,0 +1,33 @@
+.cart {
+    background-color: #fdfdfd;
+    border-left: 2px solid red;
+    position: sticky;
+    top: 0;
+    right: 0;
+    height: 100vh;
+}
+
+.cart__title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cart__title > h2 {
+    color: red;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.cart__title > h2::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 25%;
+    height: 2px;
+    width: 50%;
+    background-color: red;
+}
+
+.cart__products {
+    margin-top: 50px;
+}

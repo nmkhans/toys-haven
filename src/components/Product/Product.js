@@ -3,8 +3,8 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import StarHalfIcon from '@mui/icons-material/StarHalf';
 import './Product.css';
 
-const Product = ({product}) => {
-    console.log(product)
+const Product = ({product, handleAddToCart}) => {
+    
     return (
         <div className="product">
             <div className="product__feature">
@@ -22,7 +22,7 @@ const Product = ({product}) => {
                     </div>
                 </div>
                 <div className="product__button">
-                    <button><p>Add to Cart</p> <AddShoppingCartIcon className="productToCart" /></button>
+                    <button onClick={() => handleAddToCart(product)}><p>Add to Cart</p> <AddShoppingCartIcon className="productToCart" /></button>
                 </div>
             </div>
         </div>

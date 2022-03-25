@@ -1,7 +1,7 @@
 .header {
     padding: 10px 0;
-    border-bottom: 1px solid red;
     background: red;
+    /* border-bottom: 1px solid black; */
 }
 
 .header__content {

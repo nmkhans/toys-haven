@@ -1,5 +1,14 @@
 .product__feature > img {
     width: 300px;
+    transition: .5s;
+}
+
+.product__feature {
+    overflow: hidden;
+}
+
+.product:hover .product__feature > img {
+    transform: scale(1.2) rotate(5deg);
 }
 
 .product__detail {
@@ -15,6 +24,7 @@
     color: #333;
     font-size: 18px;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 .product__price > p {
