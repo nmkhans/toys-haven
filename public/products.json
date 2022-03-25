@@ -1,0 +1,86 @@
+[
+   {
+      "id": 1,
+      "name": "Blue Car",
+      "picture": "https://i.ibb.co/ZHc83Tf/blue-car.jpg",
+      "price": 129,
+      "rating": 3.5
+   },
+   {
+      "id": 2,
+      "name": "White Car",
+      "picture": "https://i.ibb.co/FWTbX1n/white-car.jpg",
+      "price": 319,
+      "rating": 3.8
+   },
+   {
+      "id": 3,
+      "name": "Minion",
+      "picture": "https://i.ibb.co/HhHCZpJ/minion.jpg",
+      "price": 410,
+      "rating": 5
+   },
+   {
+      "id": 4,
+      "name": "Starwar Black",
+      "picture": "https://i.ibb.co/cTCvVLr/starwar-black.jpg",
+      "price": 220,
+      "rating": 4.5
+   },
+   {
+      "id": 5,
+      "name": "Mecha Car",
+      "picture": "https://i.ibb.co/GnZXY7z/mecha-car.jpg",
+      "price": 343,
+      "rating": 4
+   },
+   {
+      "id": 6,
+      "name": "Starwar White",
+      "picture": "https://i.ibb.co/Y77zQLg/starwar-white.jpg",
+      "price": 599,
+      "rating": 5
+   },
+   {
+      "id": 7,
+      "name": "Deadpool Kid",
+      "picture": "https://i.ibb.co/4TPS6yw/dead-pool.jpg",
+      "price": 699,
+      "rating": 5
+   },
+   {
+      "id": 8,
+      "name": "Purple Car",
+      "picture": "https://i.ibb.co/2ymv0SC/purple-car.jpg",
+      "price": 364,
+      "rating": 4.6
+   },
+   {
+      "id": 9,
+      "name": "Green Dino",
+      "picture": "https://i.ibb.co/ZzVNYY1/green-dino.jpg",
+      "price": 199,
+      "rating": 2.8
+   },
+   {
+      "id": 10,
+      "name": "Starwar Gold",
+      "picture": "https://i.ibb.co/rc1FRCL/starwar-gold.jpg",
+      "price": 474,
+      "rating": 4
+   },
+   {
+      "id": 11,
+      "name": "Lego Man",
+      "picture": "https://i.ibb.co/KNBHVDr/lego-man.jpg",
+      "price": 599,
+      "rating": 5
+   },
+   {
+      "id": 12,
+      "name": "Pink Bird",
+      "picture": "https://i.ibb.co/7tbDbcp/pink-bird.jpg",
+      "price": 432,
+      "rating": 4.6
+   }
+]
