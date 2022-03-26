@@ -1,0 +1,26 @@
+.question {
+    padding: 60px 0;
+    background: red;
+    color: #fff;
+}
+
+.question__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+
+.question__list > p{
+    text-align: justify;
+}
+
+@media all and (min-width: 200px) and (max-width: 992px) {
+    .question__content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .question__list {
+        margin-bottom: 30px;
+    }
+}

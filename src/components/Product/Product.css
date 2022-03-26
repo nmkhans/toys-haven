@@ -75,3 +75,19 @@
     background: #000;
     color: #ff0000 !important;
 }
+
+@media all and (min-width: 200px) and (max-width: 992px) {
+    .product__feature > img {
+        width: 100%;
+        transition: .5s;
+    }
+}
+
+@media all and (min-width: 200px) and (max-width: 576px) {
+    .product__button > button {
+        width: 130px;
+        height: 32px;
+        font-size: 13px !important;
+        font-weight: 700;
+    }
+}

@@ -1,4 +1,16 @@
+.shop {
+    border-bottom: 2px solid red;
+}
+
 .shop__content {
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+
+@media all and (min-width: 200px) and (max-width: 1200px) {
+    .shop__content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

@@ -4,3 +4,11 @@
     grid-gap: 30px;
     padding: 50px 0;
 }
+
+@media all and (min-width: 200px) and (max-width: 992px) {
+    .products__content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
