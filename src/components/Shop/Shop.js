@@ -14,6 +14,28 @@ const Shop = () => {
             alert('maximum amount reached');
         }
     }
+
+    const emptyCart = () => {
+        const emptyProduct = [];
+        setProducts(emptyProduct);
+    }
+
+    const randomNumber = () => {
+        let number = Math.round(Math.random() * (products.length - 1));
+        return number;
+    }
+
+    const selectOne = () => {
+        let number = randomNumber();
+        const selectedProduct = [];
+        for(let product of products) {
+            if(products.indexOf(product) === number) {
+                selectedProduct.push(product);
+           } 
+        }
+        setProducts(selectedProduct)
+    }
+
     return (
         <div className="shop">
             <div className="inner__shop">
@@ -21,7 +43,7 @@ const Shop = () => {
                     {/* Products */}
                     <Products handleAddToCart={handleAddToCart}/>
                     {/* Cart */}
-                    <Cart products={products}/>
+                    <Cart products={products} emptyCart={emptyCart} selectOne={selectOne}/>
                 </div>
             </div>
         </div>

@@ -1,9 +1,8 @@
 import React from 'react';
-import DeleteIcon from '@mui/icons-material/Delete';
+import ClearIcon from '@mui/icons-material/Clear';
 import './CartItem.css';
 
 const CartItem = ({product}) => {
-    console.log(product);
     return (
         <div className="cartItem">
             <div className="inner__cartItem">
@@ -15,7 +14,7 @@ const CartItem = ({product}) => {
                         <h3>{product.name}</h3>
                     </div>
                     <div className="cartItem__button">
-                        <button><DeleteIcon /></button>
+                        <button><ClearIcon /></button>
                     </div>
                 </div>
             </div>

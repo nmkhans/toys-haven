@@ -31,3 +31,32 @@
 .cart__products {
     margin-top: 50px;
 }
+
+.cart__button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart__button > button {
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: #ff0000;
+    color: #fff;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.cart__button > button:hover {
+    background-color: #000;
+    color: #ff0000;
+}
