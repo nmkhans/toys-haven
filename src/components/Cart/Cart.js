@@ -14,7 +14,7 @@ const Cart = ({products, emptyCart, selectOne}) => {
                 <div className="cart__products">
                     {/* Cart Item */}
                     {
-                        products.map(product => <CartItem key={product.id} product={product}/>)
+                        products.map(product => <CartItem key={product.id} product={product} />)
                     }
                 </div>
                 <div className="cart__button">

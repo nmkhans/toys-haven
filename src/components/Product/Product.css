@@ -18,13 +18,13 @@
 .product__price {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .product__price > h3 {
     color: #333;
     font-size: 18px;
     font-weight: 600;
-    margin-top: 10px;
 }
 
 .product__price > p {

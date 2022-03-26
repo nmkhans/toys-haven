@@ -43,7 +43,7 @@ const Shop = () => {
                     {/* Products */}
                     <Products handleAddToCart={handleAddToCart}/>
                     {/* Cart */}
-                    <Cart products={products} emptyCart={emptyCart} selectOne={selectOne}/>
+                    <Cart products={products} emptyCart={emptyCart} selectOne={selectOne} />
                 </div>
             </div>
         </div>
